@@ -42,12 +42,12 @@ goto fin
     echo Begin3> %LSM%
     echo Title:          difpat>> %LSM%
     echo Version:        0.1>> %LSM%
-    echo Entered-date:   2020-07-05>> %LSM%
+    echo Entered-date:   2020-07-14>> %LSM%
     echo Description:    Diff and patch files or directories.>> %LSM%
     echo Keywords:       freedos dif pat>> %LSM%
     echo Author:         >> %LSM%
     echo Maintained-by:  >> %LSM%
-    echo Primary-site:   >> %LSM%
+    echo Primary-site:   https://github.com/deverac/difpat>> %LSM%
     echo Alternate-site: >> %LSM%
     echo Original-site:  >> %LSM%
     echo Platforms:      DOS>> %LSM%
