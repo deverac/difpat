@@ -1,0 +1,7 @@
+This is a line   |This is a line 
+                 |An added line  
+                 |               
+Another line     |A changed line 
+                 |               
+Almost last line |
+Last line        |Last line      

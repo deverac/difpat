@@ -1,0 +1,18 @@
+dif dir1/f2.txt dir2/f2.txt
+4c4
+< It has more text
+---
+> Changed text
+dif "dir1/a spc.txt" "dir2/a spc.txt"
+2c2
+< Another line.
+---
+> A different line.
+4d3
+< And more.
+Common subdirectories: dir1/diraa and dir2/diraa
+Only in dir1: xxx
+Only in dir1: empty.txt
+dif dir1/f1.txt dir2/f1.txt
+3a4
+> another line

@@ -1,0 +1,2 @@
+This tests Normal format (with no args).
+Another line.

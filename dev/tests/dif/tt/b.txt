@@ -1,0 +1,6 @@
+This is a line
+An added line
+
+A changed line
+
+Last line

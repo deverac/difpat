@@ -1,0 +1,5 @@
+Files dira/mod.txt and dirb/mod.txt differ
+Only in dira/dir1: onlya.txt
+Only in dira: dir-left
+Only in dirb/dir2: onlyb.txt
+Only in dirb: dir-rght

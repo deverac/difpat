@@ -1,0 +1,9 @@
+---
+2c2
+< It will be changed.
+> It will be modified.
+Only in dira: dir-left
+Only in dira\dir1: onlya.txt
+Only in dirb: dir-rght
+Only in dirb\dir2: onlyb.txt
+dif.exe /r dira\mod.txt dirb\mod.txt

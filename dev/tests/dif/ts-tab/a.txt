@@ -1,0 +1,5 @@
+This tests '-s' and extra spaces.
+Tab at end.	
+	Tab at start.
+Tabs	in	middle.
+	Tabs	e	v	e	r	y	where.	

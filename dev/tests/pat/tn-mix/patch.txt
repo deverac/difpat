@@ -1,0 +1,10 @@
+1a2
+> a
+3,4c4,5
+< Line3
+< Line4
+---
+> Change3
+> Change4
+7d7
+< Line7

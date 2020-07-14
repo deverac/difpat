@@ -1,0 +1,1 @@
+This tests '-l'. Files should be the same.a.txt is saved in Mac format (CR line endings).b.txt is saved in DOS format (CRLF line endings).

@@ -1,0 +1,2 @@
+This tests '-e'. The 'a.txt' file should not exist.
+Another line.

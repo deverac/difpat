@@ -1,0 +1,1 @@
+I Files a.txt and b.txt are identical

@@ -1,0 +1,2 @@
+This tests '-b'. Files should not be the same.
+Another line.

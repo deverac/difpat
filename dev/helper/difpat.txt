@@ -1,0 +1,86 @@
+dif.exe   Compares files or directories and can generate a patchfile.
+
+pat.exe   Applies a patchfile to a file or a directory.
+
+
+
+Both dif.exe and pat.exe accept the option '/?' which is an alias for '/help'
+but is not shown on the help screen.
+
+The '/gloss' option (of dif.exe) is only applicable when using '/brief' or
+'/twocol'. It will print a character at the start of each line. The characters
+and their meanings are as follows:
+
+    %  Line was changed.
+    =  Line is equal.
+    <  Line is only in NAME1 (NAME1 is a file).
+    >  Line is only in NAME2 (NAME2 is a file).
+    A  File is only in NAME1 (NAME1 is a directory).
+    B  File is only in NAME2 (NAME2 is a directory).
+
+The characters, excluding 'A' and 'B', can be changed with the '/alt' option.
+
+
+
+
+
+=== Dif and Pat files ===
+
+    dif.exe file1.txt file2.txt > patch.txt
+    pat.exe patch.txt file1.txt
+
+If you wish to create a patched file without modifying file1.txt:
+
+    pat.exe /screen patch.txt file1.txt > result.txt
+
+Alternately:
+
+    pat.exe /create patch.txt file1.txt
+
+The patched file will be created as .\tmp\00000001.tgt.
+
+
+
+
+
+=== Dif and Pat directories ===
+
+    dif.exe /recurse /empty dir1 dir2 > patch.txt
+    pat.exe patch.txt dir1
+
+Create patched files without modifying dir1:
+
+    pat.exe /create patch.txt dir1
+
+The patched files will be created in the working directory (default '.\tmp')
+which will contain the following types of files: 
+
+   Extension       Description
+     .cmd      The path and name of the file to be patched.
+     .pat      The 'raw' patch info.
+     .tgt      The patched version of the source file.
+
+
+
+
+
+=== Patch type ===
+
+    pat.exe /type patch.txt
+
+Normally, the exit value of pat.exe is 0, on success, or 1, on failure. 
+However, when the /type option is specified, the exit value of pat.exe will be
+one of the following:
+
+    1  "Unknown type"
+    2  "Indeterminate type"
+    3  "Normal diff of file"
+    4  "Normal diff of directory"
+    5  "Unified diff of file"
+    6  "Unified diff of directory"
+
+"Unknown type" means the file is not recognized.
+"Indeterminate type" means the file matched both Normal and Unified format.
+
+
+See also: FC, COMP, HEXCOMP

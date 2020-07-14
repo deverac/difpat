@@ -1,0 +1,14 @@
+Name: a.txt
+Lines: 3
+Buflen: 53
+1:1:17:1  XXXXXXXXXXXXXXXXXXXX
+2:18:1:2                177583
+3:19:52:3  XXXXXXXXXXXXXXXXXXXX
+
+Name: b.txt
+Lines: 3
+Buflen: 53
+1:1:17:1  XXXXXXXXXXXXXXXXXXXX
+2:18:1:2                177583
+3:19:52:3  XXXXXXXXXXXXXXXXXXXX
+

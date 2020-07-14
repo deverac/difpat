@@ -1,0 +1,7 @@
+This is f1
+
+Added line in middle
+Changed text
+And it has an extra line
+
+and then it ends.

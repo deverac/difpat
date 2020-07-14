@@ -1,0 +1,6 @@
+% Files dira\mod.txt and dirb\mod.txt differ
+= Files dira\a.txt and dirb\a.txt are identical
+A Only in dira: dir-left
+A Only in dira\dir1: onlya.txt
+B Only in dirb: dir-rght
+B Only in dirb\dir2: onlyb.txt

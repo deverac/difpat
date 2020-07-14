@@ -1,0 +1,12 @@
+---
+0a1
+1,2d0
+2c2
+< It only exists under dira.
+< It will be changed.
+< This is onlya.txt
+> It will be modified.
+> This is onlyb.txt.
+dif.exe /r /e dira\dir1\onlya.txt dirb\dir1\onlya.txt
+dif.exe /r /e dira\dir2\onlyb.txt dirb\dir2\onlyb.txt
+dif.exe /r /e dira\mod.txt dirb\mod.txt

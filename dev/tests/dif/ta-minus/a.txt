@@ -1,0 +1,4 @@
+This tests '-a'.
+Files should differ.
+This line will be deleted.
+A second line.

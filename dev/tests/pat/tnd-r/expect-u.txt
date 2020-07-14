@@ -1,0 +1,2 @@
+Only in d1copy: empty.txt
+Only in d1copy: xxx

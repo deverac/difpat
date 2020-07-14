@@ -1,0 +1,3 @@
+This tests '-l'. Files should be the same.
+a.txt is saved in Unix format (LF line endings).
+b.txt is saved in Mac format (CR line endings).

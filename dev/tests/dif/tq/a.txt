@@ -1,0 +1,3 @@
+This tests '-q'.
+Files should differ.
+A line.

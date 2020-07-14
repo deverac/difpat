@@ -1,0 +1,4 @@
+--- a.txt	2020-06-16 23:01:4X.000000000 XXXXX
++++ b.txt	2020-06-24 18:25:3X.000000000 XXXXX
+@@ -3 +2,0 @@
+HThis line will be deleted.

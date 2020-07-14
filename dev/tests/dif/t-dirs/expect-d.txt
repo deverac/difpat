@@ -1,0 +1,9 @@
+---
+2c2
+< It will be changed.
+> It will be modified.
+Common subdirectories: dira\dir1 and dirb\dir1
+Common subdirectories: dira\dir2 and dirb\dir2
+Only in dira: dir-left
+Only in dirb: dir-rght
+dif.exe /n dira\mod.txt dirb\mod.txt

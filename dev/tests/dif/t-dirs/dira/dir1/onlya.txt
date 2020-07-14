@@ -1,0 +1,2 @@
+This is onlya.txt
+It only exists under dira.

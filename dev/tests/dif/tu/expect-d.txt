@@ -1,0 +1,5 @@
+--- a.txt	2020-06-16 03:12:4X.000000000 XXXXX
++++ b.txt	2020-06-16 03:13:0X.000000000 XXXXX
+@@ -2 +2 @@
+-Another line.
++An altered line.

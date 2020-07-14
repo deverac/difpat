@@ -1,0 +1,3 @@
+1,2d0
+< This tests '-e'. The 'b.txt' file should not exist.
+< Another line.

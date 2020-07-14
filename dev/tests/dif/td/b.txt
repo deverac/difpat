@@ -1,0 +1,3 @@
+This tests '-d'.
+
+For simplicity, a.txt and b.txt should be the same.

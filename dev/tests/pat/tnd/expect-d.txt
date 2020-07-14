@@ -1,0 +1,3 @@
+Common subdirectories: d1copy/diraa and dir2/diraa
+Only in d1copy: empty.txt
+Only in d1copy: xxx

@@ -1,0 +1,15 @@
+Usage:     pat [options] PATCHFILE ORIGFILE
+           pat [options] PATCHFILE ORIGDIR
+           pat [-t | --type] PATCHFILE
+
+  -w, --workdir DIR   Name of workdir (default: 'tmp')
+  -k, --keep          Do not delete workdir on exit
+  -q, --quiet         Suppress normal output
+  -s, --screen        Output to screen
+  -c, --create        Create patches but do not update files
+  -t, --type          Print type of PATCHFILE
+  -h, --help          Show this help
+  -v, --version       Show version
+
+DIR can be a max of 8 chars; anything longer will be truncated.
+Use of '-c' implies '-k'; the patched files are stored in the workdir.

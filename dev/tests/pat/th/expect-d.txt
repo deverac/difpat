@@ -1,0 +1,15 @@
+Usage: XXXXXXX [options] PATCHFILE ORIGFILE
+       XXXXXXX [options] PATCHFILE ORIGDIR
+       XXXXXXX [Xt | XXtype] PATCHFILE
+
+  Xw, XXworkdir DIR   Name of workdir (default: 'tmp')
+  Xk, XXkeep          Do not delete workdir on exit
+  Xq, XXquiet         Suppress normal output
+  Xs, XXscreen        Output to screen
+  Xc, XXcreate        Create patches but do not update files
+  Xt, XXtype          Print type of PATCHFILE
+  Xh, XXhelp          Show this help
+  Xv, XXversion       Show version
+
+DIR can be a max of 8 chars; anything longer will be truncated.
+Use of 'Xc' implies 'Xk'; the patched files are stored in the workdir.

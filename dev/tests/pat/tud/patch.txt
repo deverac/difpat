@@ -1,0 +1,22 @@
+dif -u dir1/f2.txt dir2/f2.txt
+--- dir1/f2.txt	2020-07-01 01:58:04.798892936 -0400
++++ dir2/f2.txt	2020-07-01 01:58:04.802892936 -0400
+@@ -4 +4 @@
+-It has more text
++Changed text
+dif -u "dir1/a spc.txt" "dir2/a spc.txt"
+--- "dir1/a spc.txt"	2020-07-01 01:58:04.798892936 -0400
++++ "dir2/a spc.txt"	2020-07-01 01:58:04.798892936 -0400
+@@ -2 +2 @@
+-Another line.
++A different line.
+@@ -4 +3,0 @@
+-And more.
+Common subdirectories: dir1/diraa and dir2/diraa
+Only in dir1: xxx
+Only in dir1: empty.txt
+dif -u dir1/f1.txt dir2/f1.txt
+--- dir1/f1.txt	2020-07-01 01:58:04.798892936 -0400
++++ dir2/f1.txt	2020-07-01 01:58:04.798892936 -0400
+@@ -3,0 +4 @@
++another line

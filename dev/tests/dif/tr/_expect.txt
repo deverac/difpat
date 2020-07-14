@@ -1,0 +1,9 @@
+---
+2c2
+< It will be changed.
+> It will be modified.
+Only in dira/dir1: onlya.txt
+Only in dira: dir-left
+Only in dirb/dir2: onlyb.txt
+Only in dirb: dir-rght
+diff --recursive dira/mod.txt dirb/mod.txt

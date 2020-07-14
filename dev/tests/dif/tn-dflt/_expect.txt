@@ -1,0 +1,4 @@
+2c2
+< Another line.
+---
+> An altered line.

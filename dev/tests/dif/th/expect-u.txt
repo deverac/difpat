@@ -1,0 +1,22 @@
+Usage:     dif [options] NAME1 NAME2
+
+  -n, --normal     Output Normal format (default)
+  -u, --unified    Output Unified format
+  -b, --brief      Report only if NAMEs differ or not
+  -e, --empty      Treat absent files as empty
+  -r, --recurse    Recurse subdirectories
+  -t, --twocol     Show two-column output
+  -w, --width N    Column width of two-column output
+  -g, --gloss      Prefix line with char indicating change
+  -s, --space      Ignore space and tab differences
+  -l, --lineend    Ignore line ending
+  -a, --alt CHARS  Set alternate chars
+  -q, --quiet      Suppress normal output
+  -h, --help       Show this help
+  -v, --version    Show version
+  -d, --data       Show data structure (for developer)
+
+NAME1 and NAME2 must either both be files or both be directories.
+CHARS is 1-6 chars which replace corresponding chars in the string '<>+-=%' and
+may need to be quoted to prevent shell interpretation or if spaces are used.
+Exit status is 0 if inputs are the same, 1 if different, 2 if trouble.

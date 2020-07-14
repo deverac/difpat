@@ -1,0 +1,5 @@
+This tests '-s' and extra spaces.
+Spaces at end.    
+    Spaces at start.
+Spaces      in      middle.
+   Spaces   e  v  e  r  y  w  h  e  r  e. 

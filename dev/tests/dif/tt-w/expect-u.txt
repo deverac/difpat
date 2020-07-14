@@ -1,0 +1,7 @@
+This is a |This is a 
+          |An added l
+          |          
+Another li|A changed 
+          |          
+Almost las|
+Last line |Last line 

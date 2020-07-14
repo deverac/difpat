@@ -1,0 +1,22 @@
+Usage: XXXXXXX [options] NAME1 NAME2
+
+  Xn, XXnormal     Output Normal format (default)
+  Xu, XXunified    Output Unified format
+  Xb, XXbrief      Report only if NAMEs differ or not
+  Xe, XXempty      Treat absent files as empty
+  Xr, XXrecurse    Recurse subdirectories
+  Xt, XXtwocol     Show two-column output
+  Xw, XXwidth N    Column width of two-column output
+  Xg, XXgloss      Prefix line with char indicating change
+  Xs, XXspace      Ignore space and tab differences
+  Xl, XXlineend    Ignore line ending
+  Xa, XXalt CHARS  Set alternate chars
+  Xq, XXquiet      Suppress normal output
+  Xh, XXhelp       Show this help
+  Xv, XXversion    Show version
+  Xd, XXdata       Show data structure (for developer)
+
+NAME1 and NAME2 must either both be files or both be directories.
+CHARS is 1-6 chars which replace corresponding chars in the string '<>+-=%' and
+may need to be quoted to prevent shell interpretation or if spaces are used.
+Exit status is 0 if inputs are the same, 1 if different, 2 if trouble.

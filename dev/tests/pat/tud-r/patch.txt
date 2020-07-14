@@ -1,0 +1,27 @@
+dif -u -r dir1/f2.txt dir2/f2.txt
+--- dir1/f2.txt	2020-07-01 01:58:14.258892540 -0400
++++ dir2/f2.txt	2020-07-01 01:58:14.262892540 -0400
+@@ -4 +4 @@
+-It has more text
++Changed text
+dif -u -r "dir1/a spc.txt" "dir2/a spc.txt"
+--- "dir1/a spc.txt"	2020-07-01 01:58:14.258892540 -0400
++++ "dir2/a spc.txt"	2020-07-01 01:58:14.262892540 -0400
+@@ -2 +2 @@
+-Another line.
++A different line.
+@@ -4 +3,0 @@
+-And more.
+dif -u -r dir1/diraa/delline.txt dir2/diraa/delline.txt
+--- dir1/diraa/delline.txt	2020-07-01 01:58:14.262892540 -0400
++++ dir2/diraa/delline.txt	2020-07-01 01:58:14.262892540 -0400
+@@ -4 +4 @@
+-And it has an extra line
++And it has line
+Only in dir1: xxx
+Only in dir1: empty.txt
+dif -u -r dir1/f1.txt dir2/f1.txt
+--- dir1/f1.txt	2020-07-01 01:58:14.258892540 -0400
++++ dir2/f1.txt	2020-07-01 01:58:14.262892540 -0400
+@@ -3,0 +4 @@
++another line
