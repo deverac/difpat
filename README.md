@@ -1,3 +1,7 @@
+`difpat.zip` is a FreeDOS package containing `dif.exe` and `pat.exe` (and sources).
+
+To install `difpat.zip` via the command-line: `fdnpkg install difpat.zip`
+
 `dif.exe` - Compares files or directories and can generate a _patchfile_.
 
 `pat.exe` - Applies a _patchfile_ to a file or a directory.
